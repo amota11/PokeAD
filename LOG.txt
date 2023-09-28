@@ -1,0 +1,5 @@
+## 09/28/2023 ##
+- Set up git in Desktop and Laptop
+- Cloned PokeAD repository
+- Created repository for new ExpenseTracker project
+- Revised PokeAD Python app

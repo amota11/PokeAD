@@ -23,3 +23,7 @@ Setting up an Azure Actice Directory and DHCP servers that combine:
 3. DHCP server assignment based on region  + pokemon number
     - DHCP rules to consider total # of Pokemon per region when creating IP Range.
     - Kanto: 192.169.001.130 → Gyarados
+
+    lel
+
+
