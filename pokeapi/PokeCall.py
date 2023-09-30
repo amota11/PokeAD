@@ -20,12 +20,12 @@ def PokeRequest():
     response = requests.get(PokeURL).json()
     
     # 4 - Save response into JSON file
-    jsonName = "pokeapi\JSON_Files\PokeResult.json"
+    jsonName = "pokeapi/JSON_Files/PokeResult.json"
     save_to_file(response, jsonName)
     print("Found it! Here's the information retreived for " + PokeReq)
 
     # 5 - Read JSON file and display content
-    PokeRes = read_from_file(jsonName = "pokeapi\JSON_Files\PokeResult.json")
+    PokeRes = read_from_file(jsonName)
     print(PokeRes)
 
 def save_to_file(ApiData, jsonPath):
